@@ -25,3 +25,10 @@ nice [OPTION][COMMAND[ARG]...]
 ```
 top [options]
 ```
+
+### Web
+1. Tool to transfer data from or to a server.
+```
+curl <address> -o <filename>
+```
+- o flag saves output to a file "filename"
