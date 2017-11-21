@@ -31,4 +31,6 @@ top [options]
 ```
 curl <address> -o <filename>
 ```
-- o flag saves output to a file "filename"
+- -o  Flag saves output to a file "filename"
+- -i, --include  Flags include the HTTP response headers in the output
+- -L, --location  If the server reports that the requested page has moved to a different location (indicated with a Location: header and a 3XX response code), this option will make curl redo the request on the new place.
